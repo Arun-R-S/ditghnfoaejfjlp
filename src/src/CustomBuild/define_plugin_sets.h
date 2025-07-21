@@ -3114,14 +3114,14 @@ To create/register a plugin, you have to :
 
 #if !defined(FEATURE_MQTT_DISCOVER) && FEATURE_MQTT
   #if defined(LIMIT_BUILD_SIZE) || defined(ESP8266) // Must enable this explicitly for ESP8266 Custom build
-    #define FEATURE_MQTT_DISCOVER 0
+    #define FEATURE_MQTT_DISCOVER 1
   #else
     #define FEATURE_MQTT_DISCOVER 1
   #endif
 #endif
 #if !defined(FEATURE_MQTT_DEVICECLASS) && FEATURE_MQTT
   #if defined(LIMIT_BUILD_SIZE) || defined(ESP8266) // Must enable this explicitly for ESP8266 Custom build
-    #define FEATURE_MQTT_DEVICECLASS 0
+    #define FEATURE_MQTT_DEVICECLASS 1
   #else
     #define FEATURE_MQTT_DEVICECLASS 1
   #endif

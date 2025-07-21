@@ -38,7 +38,7 @@
 #define BUILD_GIT           "My Build: "  __DATE__ " "  __TIME__
 
 
-#define DEFAULT_NAME        "Sonix-2025.7.1.0"                        // Enter your device friendly name
+#define DEFAULT_NAME        "Sonix_V1"                        // Enter your device friendly name
 #define UNIT                0                                        // Unit Number
 #define DEFAULT_DELAY       60                                       // Sleep Delay in seconds
 

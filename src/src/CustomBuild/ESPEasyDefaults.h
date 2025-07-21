@@ -17,7 +17,7 @@
 // After loading firmware, issue a 'reset' command to load the defaults.
 // --- Basic Config Settings ------------------------------------------------------------------------
 #ifndef DEFAULT_NAME
-#define DEFAULT_NAME        "Sonix-2025.7.1.0"          // Enter your device friendly name
+#define DEFAULT_NAME        "Sonix_V1"          // Enter your device friendly name
 #endif
 #ifndef UNIT
 #define UNIT                0                   // Unit Number
